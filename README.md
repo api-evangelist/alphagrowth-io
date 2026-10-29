@@ -64,23 +64,116 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AlphaGrowth is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
+AlphaGrowth is a crypto-focused growth firm providing comprehensive data and analytics on decentralized finance (DeFi) projects, token products, private lending platforms, liquidity pools, and on-chain insurance. It offers free public data on total value locked (TVL), liquidity metrics, and market insights, serving investors, developers, and financial analysts seeking transparent crypto asset information.
 
-**Areas:** Company
+**Areas:** Company · Crypto · DeFi · DataAnalytics · Finance
 
 ## AlphaGrowth on APIs.io
 
 Everything profiled for AlphaGrowth is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/alphagrowth-io/](https://apis.io/providers/alphagrowth-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (14)
+
+- [AlphaGrowth AlphaGrowth API](https://apis.io/apis/alphagrowth-io/alphagrowth-io-alphagrowth-api-api/) — The AlphaGrowth API API from AlphaGrowth — 2 operation(s) for alphagrowth api.
+- [AlphaGrowth Chains API](https://apis.io/apis/alphagrowth-io/alphagrowth-io-chains-api/) — The Chains API from AlphaGrowth — 2 operation(s) for chains.
+- [AlphaGrowth Dao Treasuries API](https://apis.io/apis/alphagrowth-io/alphagrowth-io-dao-treasuries-api/) — The Dao Treasuries API from AlphaGrowth — 6 operation(s) for dao treasuries.
+- [AlphaGrowth Fees API](https://apis.io/apis/alphagrowth-io/alphagrowth-io-fees-api/) — The Fees API from AlphaGrowth — 2 operation(s) for fees.
+- [AlphaGrowth Funding Rounds API](https://apis.io/apis/alphagrowth-io/alphagrowth-io-funding-rounds-api/) — The Funding Rounds API from AlphaGrowth — 1 operation(s) for funding rounds.
+- [AlphaGrowth Health API](https://apis.io/apis/alphagrowth-io/alphagrowth-io-health-api/) — The Health API from AlphaGrowth — 1 operation(s) for health.
+- [AlphaGrowth Investors API](https://apis.io/apis/alphagrowth-io/alphagrowth-io-investors-api/) — The Investors API from AlphaGrowth — 2 operation(s) for investors.
+- [AlphaGrowth Llms Full.txt API](https://apis.io/apis/alphagrowth-io/alphagrowth-io-llms-full-txt-api/) — The Llms Full.txt API from AlphaGrowth — 1 operation(s) for llms full.txt.
+- [AlphaGrowth Llms.txt API](https://apis.io/apis/alphagrowth-io/alphagrowth-io-llms-txt-api/) — The Llms.txt API from AlphaGrowth — 1 operation(s) for llms.txt.
+- [AlphaGrowth MCP API](https://apis.io/apis/alphagrowth-io/alphagrowth-io-mcp-api/) — The Mcp API from AlphaGrowth — 1 operation(s) for mcp.
+- [AlphaGrowth Projects API](https://apis.io/apis/alphagrowth-io/alphagrowth-io-projects-api/) — The Projects API from AlphaGrowth — 4 operation(s) for projects.
+- [AlphaGrowth Rankings API](https://apis.io/apis/alphagrowth-io/alphagrowth-io-rankings-api/) — The Rankings API from AlphaGrowth — 1 operation(s) for rankings.
+- [AlphaGrowth Search History API](https://apis.io/apis/alphagrowth-io/alphagrowth-io-search-history-api/) — The Search History API from AlphaGrowth — 2 operation(s) for search history.
+- [AlphaGrowth Treasury Companies API](https://apis.io/apis/alphagrowth-io/alphagrowth-io-treasury-companies-api/) — The Treasury Companies API from AlphaGrowth — 1 operation(s) for treasury companies.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Alphagrowth Io Agentic Access](https://apis.io/agentic-access/alphagrowth-io/alphagrowth-io-agentic-access/)
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [JsonRpcRequest](https://apis.io/schemas/alphagrowth-io/alphagrowth-io-json-rpc-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Alphagrowth Io Context](https://apis.io/jsonld/alphagrowth-io/alphagrowth-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AlphaGrowth API Rules](https://apis.io/rules/alphagrowth-io/alphagrowth-io-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Alphagrowth Io Domain Security](https://apis.io/security/alphagrowth-io/alphagrowth-io-domain-security/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://alphagrowth.io)
+- [API reference](https://alphagrowth.io/openapi.json)
+- [Blog](https://alphagrowth.io/blog/)
+- [Privacy policy](https://alphagrowth.io/privacy-policy/)
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/alphagrowth-io/](https://apis.io/providers/alphagrowth-io/).
+**Kin Score 32.6** — thin · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 46.2 |
+| Contract governance | 70.9 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 23.1 |
+| Access clarity | 10.5 |
+
+**Agent readiness 30.9** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 14.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/alphagrowth-io/](https://apis.io/providers/alphagrowth-io/).
 
 ## How this profile is made
 
